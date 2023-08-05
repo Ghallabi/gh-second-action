@@ -13,7 +13,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Run tests
-        run: npmt test
+        run: npm test
   deploy:
     needs: test
     runs-on: ubuntu-latest
